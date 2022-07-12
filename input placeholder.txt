@@ -1,0 +1,131 @@
+
+.form-group input,
+.form-group select {
+    background: #fff;
+    color: #fff;
+    font-weight: 400;
+    padding: 0 15px;
+    outline: none;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    border: 0;
+    height: 70px;
+    margin-bottom: 10px;
+    -webkit-transition: all 0.5s ease-out 0s;
+    transition: all 0.5s ease-out 0s;
+    font-size: 18px;
+    border: 1px solid #fff;
+    border-radius: 4px;
+}
+
+.welcome-form .form-group input::-webkit-input-placeholder,
+.welcome-form .form-group textarea::-webkit-input-placeholder {
+    color: rgb(221, 201, 201);
+    color: #000;
+}
+
+.welcome-form .form-group input:-ms-input-placeholder,
+.welcome-form .form-group textarea:-ms-input-placeholder {
+    color: rgb(221, 201, 201);
+    color: #000;
+}
+
+.welcome-form .form-group input::placeholder,
+.welcome-form .form-group textarea::placeholder {
+    color: rgb(221, 201, 201);
+    color: #d1d1d1;
+}
+
+.welcome-form input:focus,
+.welcome-form textarea:focus,
+.welcome-form select:focus {
+    -webkit-box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+    border: 1px solid #70be46;
+    color: #fff;
+    background: transparent;
+}
+
+.form-group input[type="submit"] {
+    height: 70px;
+    padding: 12px 15px;
+    background: #0854ae;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 21px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    /* margin-top: 25px; 
+    -webkit-box-shadow: 0 0 12px rgb(160 52 140 / 60%);
+    box-shadow: 0 0 12px rgb(160 52 140 / 60%);*/
+    border-radius: 4px;
+    border: none;
+}
+
+<------------------contact form------------------------->
+.contact-area .form-group input[type="submit"] {
+    background: #fff;
+    border-radius: 5px;
+    color: #70be46;
+}
+
+.contact-area .form-group input::placeholder,
+.contact-area .form-group textarea::placeholder {
+    color: rgb(221, 201, 201);
+    color: #fff;
+}
+
+.contact-area input:focus,
+.contact-area textarea:focus,
+.contact-area select:focus {
+    -webkit-box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+    border: 1px solid #70be46;
+    color: #fff;
+    background: transparent;
+}
+
+
+
+
+
+#letter5 input[type="submit"] {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+#letter5 input:focus {
+    outline: none !important;
+    border: 0.5px solid #042f4c;
+    color: #443640;
+}
+
+
+
+
+</////////////////project-details......................................>
+
+.model-project-details .form-group input::-webkit-input-placeholder,
+.model-project-details .form-group textarea::-webkit-input-placeholder {
+    color: #383838;
+}
+
+.model-project-details .form-group input:-ms-input-placeholder,
+.model-project-details .form-group textarea:-ms-input-placeholder {
+    color: #383838;
+}
+
+.model-project-details .form-group input::placeholder,
+.model-project-details .form-group textarea::placeholder {
+    color: #383838;
+}
+
+.model-project-details input:focus,
+.model-project-details textarea:focus,
+.model-project-details select:focus {
+    -webkit-box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+    border: 1px solid #042f4c;
+    color: #fff;
+    background: transparent;
+}

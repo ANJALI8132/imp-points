@@ -1,0 +1,37 @@
+arrow around circle
+----------------------------
+
+
+feature_cont ul li:before {
+
+
+
+    content: "\f105";
+    width: 25px;
+    height: 25px;
+    position: absolute;
+    left: 0;
+    top: 3px;
+    background: #043479;
+    border-radius: 50%;
+    font-family: 'Font Awesome 5 Free';
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 4px;
+    line-height: 21px;
+    font-size: 15px;
+    color: #fff;
+}
+
+
+feature_cont ul li {
+    line-height: 1.8;
+    font-size: 18px;
+    display: block;
+    margin-bottom: 10px;
+    font-weight: 500;
+    position: relative;
+    padding-left: 40px;
+}

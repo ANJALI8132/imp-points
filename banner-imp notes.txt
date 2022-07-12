@@ -1,0 +1,72 @@
+.welcome-area {
+    background-image: url(../img/banner/banner.jpg);
+    background-size: contain;
+    height: 850px;
+    background-color: #c4f4fe;
+    background-repeat: no-repeat;
+    background-position: top;
+
+<---banner....>
+
+    position: absolute;
+    content: '';
+    height: 4px;
+    width: 75px;
+    transform: translateX(-50%,50%);
+    bottom: 0;
+    background: #ed1b26;
+    z-index: 99;
+}
+
+</--dash(underline)...>
+
+nav-common .owl-carousel .owl-nav button {
+    width: 65px;
+    height: 70px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 8px;
+}
+
+
+placements .owl-carousel .owl-nav button {
+    border: 1px solid #fff;
+}
+
+
+<///owl nav arrows-prev& next..>
+
+---------------------------------------
+
+testimonial-area .owl-carousel .owl-nav {
+    top: -110px;
+    right: 0;
+}
+
+.nav-common .owl-carousel .owl-nav {
+    position: absolute;
+    display: flex;
+}
+
+<div class="row nav-common">
+
+                    <div class="testi-box-slider owl-carousel owl-loaded owl-drag">
+
+------------------------------------------------------------------------
+
+
+.testimonial-block .inner-box::before {
+    content: '';
+    position: absolute;
+    right: 40px;
+    top: 40px;
+    background-image: url(../img/testimonial/quote.png);
+    width: 83px;
+    height: 64px;
+
+}
+
+<///quotes in testimonial--->
+                        
