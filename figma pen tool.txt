@@ -1,0 +1,3 @@
+figma pen tool
+
+click left button and continously draw the line without taking the hands off and release it, then will get a curve.
