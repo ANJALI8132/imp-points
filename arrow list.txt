@@ -37,6 +37,11 @@ feature_cont ul li {
 }
 
 
+play button------------
+
+
+<a href="#" class="video-button"></a>
+
 a.video-button {
     width: 64px;
     display: inline-block;
