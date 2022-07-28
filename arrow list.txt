@@ -35,3 +35,16 @@ feature_cont ul li {
     position: relative;
     padding-left: 40px;
 }
+
+
+a.video-button {
+    width: 64px;
+    display: inline-block;
+    background: url(https://bobo.muzli.space/play.png) no-repeat center center hsla(229, 100%, 59%, 10%);
+    background-size: 12px;
+    height: 64px;
+    vertical-align: middle;
+    margin-left: 10px;
+    transition: background-color .3s;
+    border-radius: 40px;
+    }
